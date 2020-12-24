@@ -5,9 +5,10 @@ uCAM III is very nice serial JPEG Camera of 4D Systems (https://4dsystems.com.au
 - Inspirated by: https://github.com/yoannsculo/uCAM
 - Fully rewritten using POLLIN (better stability)
 - JPEG image is periodically saved to file (format: uCAM_image_%H-%M-%S_%F.jpg)
-- Tested on Raspberry Pi Zero 
+- Tested on Raspberry Pi Zero and FTDI USB to serial converter 
 - Default baud rate: 115200 (tested up 921600)
-- Used as onboard camera for Strato Ballon Flights 
+- Used as onboard camera for Strato Ballon Flights
+- Max resolution: 640x480
 
 # Build
 make 
@@ -15,3 +16,6 @@ make
 Run: build/uCam
 
 ## Screenshots from Strato Balloon Flight
+![Strato flight 1](https://github.com/pavelfpl/uCam-1.0/blob/master/uCAM_image_21-41-13_2018-11-30.jpg)
+![Strato flight 2](https://github.com/pavelfpl/uCam-1.0/blob/master/uCAM_image_22-24-29_2018-09-21.jpg)
+![Strato flight 3](https://github.com/pavelfpl/uCam-1.0/blob/master/uCAM_image_23-32-35_2018-11-30.jpg)
