@@ -6,9 +6,10 @@ uCAM III is very nice serial JPEG Camera of 4D Systems (https://4dsystems.com.au
 - Fully rewritten using POLLIN (better stability)
 - JPEG image is periodically saved to file (format: uCAM_image_%H-%M-%S_%F.jpg)
 - Tested on Raspberry Pi Zero and FTDI USB to serial converter 
-- Default baud rate: 115200 (tested up 921600)
+- Default baud rate: 115200Bd (tested up to 921600Bd)
 - Used as onboard camera for Strato Ballon Flights
 - Max resolution: 640x480
+- Framerate is about 1 picture per second (115200Bd)
 
 # Build
 make 
