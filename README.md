@@ -16,7 +16,8 @@ Fully working Linux **user space** driver for **uCam III serial camera**
 Change serial `dev`  define in  `main.c ` (e.g. `#define UCAM_TTY "/dev/ttyS0"` or `#define UCAM_TTY_USB "/dev/ttyUSB1"`)
 
 `make` 
-Run:  `build/uCam`
+Run:  
+`build/uCam`
 
 ## Screenshots from Strato Balloon Flight
 ![Strato flight 1](https://github.com/pavelfpl/uCam-1.0/blob/master/uCAM_image_21-41-13_2018-11-30.jpg)
